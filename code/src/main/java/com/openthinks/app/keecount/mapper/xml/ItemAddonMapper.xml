@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.openthinks.app.keecount.mapper.ItemAddonMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.openthinks.app.keecount.entity.ItemAddon">
+		<id column="iid" property="iid" />
+		<result column="record_date" property="recordDate" />
+		<result column="member" property="member" />
+		<result column="project" property="project" />
+		<result column="address" property="address" />
+		<result column="photo" property="photo" />
+	</resultMap>
+
+</mapper>
